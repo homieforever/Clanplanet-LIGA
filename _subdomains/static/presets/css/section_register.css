@@ -1,0 +1,11 @@
+section#register {
+    position:fixed;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    min-width: 940px;
+}
+
+div.register_calc {
+    width:32%;
+}

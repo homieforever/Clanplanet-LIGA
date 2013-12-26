@@ -1,0 +1,17 @@
+section#logged_in {
+    position:fixed;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+header#in {
+    width:100%;
+    height:87px;
+    margin:0 auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+section#content {
+    margin-top: 25px;
+}

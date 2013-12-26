@@ -1,0 +1,65 @@
+section#login_header {
+    height: 450px;
+    background-size: 980px;
+}
+
+section#login_header div#header_inner {
+    background-repeat: no-repeat;
+    background-size: 100% 125%;             
+    background-position:top right;
+    height:100%;
+
+    position:relative;
+}
+
+section#login_header div#header_left {
+    float:left;
+    width:50%;
+    height:100%;
+
+
+    background-image: linear-gradient(left, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -o-linear-gradient(left, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -moz-linear-gradient(left, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -webkit-linear-gradient(left, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -ms-linear-gradient(left, rgb(0,0,0), rgba(0,0,0,0.0));
+}
+
+section#login_header div#header_right {
+    float:right;
+    width:50%;
+    height:100%;
+
+    background-image: linear-gradient(right, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -o-linear-gradient(right, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -moz-linear-gradient(right, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -webkit-linear-gradient(right, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -ms-linear-gradient(right, rgb(0,0,0), rgba(0,0,0,0.0));
+}
+
+section#login_header div#header_right div.margin_header {
+    background: rgba(0, 0, 0, 0.5);
+    
+    border-bottom-left-radius:8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+section#login_header div#header_bottom {
+    height:15%;
+    width:100%;
+
+    position:absolute;
+    bottom:0px;
+
+    background-image: linear-gradient(bottom, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -o-linear-gradient(bottom, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -moz-linear-gradient(bottom, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -webkit-linear-gradient(bottom, rgb(0,0,0), rgba(0,0,0,0.0));
+    background-image: -ms-linear-gradient(bottom, rgb(0,0,0), rgba(0,0,0,0.0));
+}
+
+section#login_header div.margin_header {
+    padding:25px;
+    text-align: left;
+}

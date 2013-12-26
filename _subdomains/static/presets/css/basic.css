@@ -1,0 +1,53 @@
+html, body {
+    width:100%;
+    height:100%;
+    background-color: #000;
+    font-family:verdana, sans-serif;
+    color:#fff;
+}
+
+* {
+    margin:0;
+    padding:0px;
+}
+
+.fright {
+    float:right;
+}
+
+.fleft {
+    float:left;
+}
+
+.clear {
+    clear:both;
+}
+
+.inner_class {
+    width: 960px;
+    margin:0 auto;
+}
+
+.mark {
+    color:#3aade3;
+}
+
+.error {
+    color: red;
+}
+
+.light {
+    color:#B0A8A8;
+}
+
+.hr {
+    height:1px;
+    width:100%;
+    background-color:#ccc;
+    margin-top:15px;
+}
+
+.hidden {
+    display:none;
+    visibility: hidden;
+}

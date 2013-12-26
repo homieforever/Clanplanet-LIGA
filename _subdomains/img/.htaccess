@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^background/([^/]*)x([^/]*)/([^/]*)\.jpg$ background.php?width=$1&height=$2&SID=$3 [L]

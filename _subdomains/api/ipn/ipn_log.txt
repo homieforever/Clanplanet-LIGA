@@ -1,0 +1,91 @@
+[12/23/2013 10:33 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+[12/23/2013 10:34 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+residence_country=US, address_city=San Jose, first_name=John, payer_id=TESTBUYERID01, shipping=3.04, mc_fee=0.44, txn_id=157698144, receiver_email=seller@paypalsandbox.com, quantity=1, custom=df5841dde7ee15c4b2faf9360209c979, payment_date=01:32:03 23 Dec 2013 PST, address_country_code=US, address_zip=95131, tax=2.02, item_name=something, address_name=John Smith, last_name=Smith, receiver_id=seller@paypalsandbox.com, item_number=AK-1234, verify_sign=ARMgL719qJdtQfNkCXk9EKH1xikZA89k8mVYCPFHZjVPgMWtLlozk6jU, address_country=United States, payment_status=Completed, address_status=confirmed, business=seller@paypalsandbox.com, payer_email=buyer@paypalsandbox.com, notify_version=2.1, txn_type=web_accept, test_ipn=1, payer_status=verified, mc_currency=USD, mc_gross=12.34, address_state=CA, mc_gross1=12.34, payment_type=echeck, address_street=123, any street, 
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+[12/23/2013 10:35 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+residence_country=US, invoice=abc1234, address_city=San Jose, first_name=John, payer_id=TESTBUYERID01, shipping=3.04, mc_fee=0.44, txn_id=440902073, receiver_email=seller@paypalsandbox.com, quantity=1, custom=df5841dde7ee15c4b2faf9360209c979, payment_date=01:34:53 23 Dec 2013 PST, address_country_code=US, address_zip=95131, tax=2.02, item_name=something, address_name=John Smith, last_name=Smith, receiver_id=seller@paypalsandbox.com, item_number=AK-1234, verify_sign=AFcWxV21C7fd0v3bYYYRCpSSRl31Adp-8o8FVYdmvk4VZiMD8u2lWvdX, address_country=United States, payment_status=Completed, address_status=confirmed, business=seller@paypalsandbox.com, payer_email=buyer@paypalsandbox.com, notify_version=2.1, txn_type=web_accept, test_ipn=1, payer_status=verified, mc_currency=USD, mc_gross=12.34, address_state=CA, mc_gross1=9.34, payment_type=instant, address_street=123, any street, 
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+[12/23/2013 10:36 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+residence_country=US, invoice=abc1234, address_city=San Jose, first_name=John, payer_id=TESTBUYERID01, shipping=3.04, mc_fee=0.44, txn_id=1014678900, receiver_email=seller@paypalsandbox.com, quantity=1, custom=e36c620d88572d5b155084f7e1a695c5, payment_date=01:35:01 23 Dec 2013 PST, address_country_code=US, address_zip=95131, tax=2.02, item_name=something, address_name=John Smith, last_name=Smith, receiver_id=seller@paypalsandbox.com, item_number=AK-1234, verify_sign=AFcWxV21C7fd0v3bYYYRCpSSRl31AHLABFKLuPdD1Emp3-Ly7Yha-TIs, address_country=United States, payment_status=Completed, address_status=confirmed, business=seller@paypalsandbox.com, payer_email=buyer@paypalsandbox.com, notify_version=2.1, txn_type=web_accept, test_ipn=1, payer_status=verified, mc_currency=USD, mc_gross=12.34, address_state=CA, mc_gross1=9.34, payment_type=instant, address_street=123, any street, 
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+[12/23/2013 10:40 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+residence_country=US, invoice=abc1234, address_city=San Jose, first_name=John, payer_id=TESTBUYERID01, shipping=3.04, mc_fee=0.44, txn_id=350359573, receiver_email=seller@paypalsandbox.com, quantity=1, custom=df5841dde7ee15c4b2faf9360209c979, payment_date=01:36:32 23 Dec 2013 PST, address_country_code=US, address_zip=95131, tax=2.02, item_name=something, address_name=John Smith, last_name=Smith, receiver_id=seller@paypalsandbox.com, item_number=AK-1234, verify_sign=As68bVmbvxz6cY.vE9vV9YmDYt1IAvc6TNl5jdNitNsg33.weyPt5GYh, address_country=United States, payment_status=Completed, address_status=confirmed, business=seller@paypalsandbox.com, payer_email=buyer@paypalsandbox.com, notify_version=2.1, txn_type=web_accept, test_ipn=1, payer_status=verified, mc_currency=USD, mc_gross=12.34, address_state=CA, mc_gross1=9.34, payment_type=instant, address_street=123, any street, 
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+[12/23/2013 10:41 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+residence_country=US, invoice=abc1234, address_city=San Jose, first_name=John, payer_id=TESTBUYERID01, shipping=3.04, mc_fee=0.44, txn_id=286904868, receiver_email=seller@paypalsandbox.com, quantity=1, custom=df5841dde7ee15c4b2faf9360209c979, payment_date=01:40:07 23 Dec 2013 PST, address_country_code=US, address_zip=95131, tax=2.02, item_name=something, address_name=John Smith, last_name=Smith, receiver_id=seller@paypalsandbox.com, item_number=AK-1234, verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AHrCkxPB17wGi5s9IHBGIogTB5JD, address_country=United States, payment_status=Completed, address_status=confirmed, business=seller@paypalsandbox.com, payer_email=buyer@paypalsandbox.com, notify_version=2.1, txn_type=web_accept, test_ipn=1, payer_status=verified, mc_currency=USD, mc_gross=12.34, address_state=CA, mc_gross1=9.34, payment_type=instant, address_street=123, any street, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 23 Dec 2013 09:41:09 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=2MzU9dc4s4mdOubTvupv8dflJfi4uyjGgHUz91oRxXSY3jn5Ok3Go-V4KBAK-zSgOLOrGad5YweQ-sSQde4F244lUBuyUFR478iHBNz6Rqr9nvWP2ZeLrmKxk5WbEsjtjNiLKyeWuOv1QXL9aKPZPNqtcW94Ft29wREM8Xr0nv-m-0OFKsypQ9z66Jk2idxN-VWBSeY6IPriPRDCZOFTM15BkSB62dZv5NAacRPNOWvXx6-MsDxykOGhbdlrRjqLHm97MPR0YVcj_30nF5ORa_dAnSeNeIyKlTvust5Gf43IBsew2Ee6irtVZvlaLvmDxdrLFr1QGwuaC1AeNS4PYgo7ITjAOue7nICKmvcwVYburhvZn70GX00UZ4P-bLnkZFq0qJhNUGxyvmG-0NxzhIhxbwqqS5QqXSdjIvxcMIvwwlgTV_qFo3BOWVa; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 21-Dec-2023 09:41:09 GMT; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 23-Dec-2015 09:41:09 GMT; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: aksession=1387791969~id=cookieVozNP9tVj0pH9NGAUINN8i6L4JISkTEtjKPqa57YjZxDP7OfadCY2HwokDbWN9RkBsC0c29tKWiy86ogZLBgJbJSmiGruBOWWwkKy/tkPJuRZ8ozap/qcnnriO6fSlJN; expires=Mon, 23-Dec-2013 09:46:09 GMT; path=/; domain=.paypal.com
+
+INVALID
+
+[12/23/2013 10:46 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+residence_country=US, invoice=abc1234, address_city=San Jose, first_name=John, payer_id=TESTBUYERID01, shipping=3.04, mc_fee=0.44, txn_id=276535192, receiver_email=seller@paypalsandbox.com, quantity=1, custom=c0f6fd99be165c72c0c2cfb28620e680, payment_date=01:41:08 23 Dec 2013 PST, address_country_code=US, address_zip=95131, tax=2.02, item_name=something, address_name=John Smith, last_name=Smith, receiver_id=seller@paypalsandbox.com, item_number=AK-1234, verify_sign=AOvzLvc5ByEY6KuhoNRikpHw0CIVA-eHaotGPHzgYgnCoj65awVnnPZC, address_country=United States, payment_status=Completed, address_status=confirmed, business=seller@paypalsandbox.com, payer_email=buyer@paypalsandbox.com, notify_version=2.1, txn_type=web_accept, test_ipn=1, payer_status=verified, mc_currency=USD, mc_gross=12.34, address_state=CA, mc_gross1=9.34, payment_type=instant, address_street=123, any street, 
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+

@@ -1,0 +1,13 @@
+section#footer {
+    background-color:#131313;
+    margin-top: 25px;
+}
+
+div#footer_partner .img {
+    opacity:0.5;
+    height:40px;
+}
+
+div#footer_partner .img:hover {
+    opacity:1.0;
+}

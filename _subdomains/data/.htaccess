@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^content/([^/]*)/([^/]*).html$ content.php?site=$2&SID=$1 [L,QSA]
+RewriteRule ^templates/([^/]*)/([^/]*).html$ template.php?SID=$1&type=$2 [L,QSA]
